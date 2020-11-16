@@ -1,5 +1,5 @@
 import PayoffTable from "./Model/PayoffTable.js"
-import Option from "./Model/Option.js.js.js.js"
+import Option from "./Model/Option.js"
 
 function renderTitle () {
     let section = document.createElement('section');
