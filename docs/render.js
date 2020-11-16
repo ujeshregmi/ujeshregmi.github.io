@@ -264,7 +264,8 @@ function createTradeStructure() {
             return;
         }
         if(isNaN(document.getElementsByClassName('tradeSt').item(0).value)){
-            alert('Underlying shares must be a number')
+            alert('Underlying shares must be a number');
+            return;
         }
         let option = new Option(document.getElementsByClassName('trade').item(i).value, document.getElementsByClassName('trade').item(i+1).value, document.getElementsByClassName('trade').item(i+2).value);
         optionArr.push(option);
